@@ -11,7 +11,7 @@ export async function getAllEvents() {
       ...data[key],
     });
   }
-
+  
   return events;
 }
 

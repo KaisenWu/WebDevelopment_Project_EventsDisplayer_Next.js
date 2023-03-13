@@ -14,7 +14,7 @@ function Layout(props) {
     <Fragment>
       <MainHeader />
       <main>{props.children}</main>
-      {/* The active notification is the status of notification. If the status is not null, the notification component will be shown. */}
+      {/* The active notification is the sta  tus of notification. If the status is not null, the notification component will be shown. */}
       {activeNotification && (
         <Notification
           title={activeNotification.title}
